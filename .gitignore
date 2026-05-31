@@ -68,3 +68,20 @@ __pycache__/
 *.log
 
 *.pkl
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Large generated PH03 processed datasets
+outputs/ph03/processed_airglobal_features.pkl
+outputs/ph03/processed_airglobal_features.csv
+outputs/ph03/processed_airglobal_features.parquet
+outputs/ph03/*.parquet
+
+# Large generated model files
+ph05_classification/models/stacking_ensemble_transformed.pkl
+
+# Optional cache/temp files
+__pycache__/
+*.pyc
