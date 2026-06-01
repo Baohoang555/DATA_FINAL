@@ -20,11 +20,6 @@ deforestation_rate,float64,numeric,base_numeric,0
 industry_growth,float64,numeric,base_numeric,0
 co2_emission,float64,numeric,base_numeric,0
 population_density,float64,numeric,domain_engineered,0
-division,string,categorical,categorical/geography,0
-province,string,categorical,categorical/geography,0
-region,string,categorical,categorical/geography,0
-prefecture,string,categorical,categorical/geography,0
-federal_district,string,categorical,categorical/geography,0
 year,int32,numeric,time,0
 month,int32,numeric,time,0
 quarter,int32,numeric,time,0
@@ -47,9 +42,9 @@ pm25_wind_dispersion,float64,numeric,domain_engineered,0
 low_wind_flag,int64,numeric,lag_rolling,0
 industry_density_interaction,float64,numeric,domain_engineered,0
 co2_per_density,float64,numeric,domain_engineered,0
-country_freq,double[pyarrow],numeric,domain_engineered,0
-city_freq,double[pyarrow],numeric,domain_engineered,0
-state_freq,double[pyarrow],numeric,domain_engineered,0
+country_freq,Float64,numeric,domain_engineered,0
+city_freq,Float64,numeric,domain_engineered,0
+state_freq,Float64,numeric,domain_engineered,0
 country_city_freq,float64,numeric,domain_engineered,0
 pm25_lag_1,float64,numeric,lag_rolling,0
 pm25_lag_3,float64,numeric,lag_rolling,0

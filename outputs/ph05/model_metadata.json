@@ -1,0 +1,21 @@
+{
+  "best_model": "LightGBM",
+  "target_col": "target_aqi_bucket",
+  "split_col": "split",
+  "n_features": 68,
+  "n_numeric_features": 64,
+  "n_categorical_features": 4,
+  "train_rows": 50000,
+  "val_rows": 10000,
+  "test_rows": 10000,
+  "optuna_trials": 0,
+  "train_stacking": false,
+  "classes": [
+    "Good",
+    "Hazardous",
+    "Moderate",
+    "Satisfactory",
+    "Unhealthy",
+    "Very_Unhealthy"
+  ]
+}
