@@ -5,7 +5,7 @@ Author: An
 Đọc processed data từ PH-03 → partition theo country/year → ghi Parquet datalake.
 
 Input : outputs/ph03/processed_airglobal_features.pkl
-Output: data/datalake/aqi/<country>/<year>/data.parquet
+Output: data/datalake/aqi/<city>/<year>/data.parquet
 
 Chạy từ thư mục gốc project:
     python src/build_datalake.py
@@ -86,16 +86,16 @@ def main() -> None:
     log(f"\n2. Building datalake → {DATALAKE_DIR.relative_to(BASE_DIR)}")
     DATALAKE_DIR.mkdir(parents=True, exist_ok=True)
 
-    groups     = df.groupby(["country", "_year"], sort=True)
+    groups     = df.groupby(["city", "_year"], sort=True)
     total_rows = 0
     total_files = 0
-    country_set: set = set()
+    city_set: set = set()
 
     drop_cols = ["_year"]  # internal helper column, không ghi vào parquet
 
-    for (country, year), group in groups:
-        country_key   = to_partition_key(str(country))
-        partition_dir = DATALAKE_DIR / country_key / str(year)
+    for (city, year), group in groups:
+        city_key      = to_partition_key(str(city))
+        partition_dir = DATALAKE_DIR / city_key / str(year)
         partition_dir.mkdir(parents=True, exist_ok=True)
 
         out_path = partition_dir / "data.parquet"
@@ -103,9 +103,9 @@ def main() -> None:
 
         total_rows  += len(group)
         total_files += 1
-        country_set.add(country_key)
+        city_set.add(city_key)
 
-    log(f"   Countries written : {len(country_set)}")
+    log(f"   Cities written    : {len(city_set)}")
     log(f"   Parquet files     : {total_files:,}")
     log(f"   Total rows written: {total_rows:,}")
 
@@ -128,7 +128,7 @@ def main() -> None:
     print("\n" + "=" * 72)
     print("-> PH-04 DONE")
     print(f"   Datalake : {DATALAKE_DIR.relative_to(BASE_DIR)}")
-    print(f"   Structure: <country>/<year>/data.parquet")
+    print(f"   Structure: <city>/<year>/data.parquet")
     print(f"   To read  : pd.read_parquet(DATALAKE_DIR / '<country>' / '<year>' / 'data.parquet')")
     print(f"   Or all   : pd.concat([pd.read_parquet(f) for f in DATALAKE_DIR.rglob('*.parquet')])")
     print("=" * 72)
