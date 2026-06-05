@@ -11088,5 +11088,485 @@
     "lat": 50.7185043,
     "lon": 12.4939267,
     "source": "openweather"
+  },
+  "Beijing-Chaoyang,China": {
+    "lat": 39.9057136,
+    "lon": 116.3912972,
+    "source": "openweather"
+  },
+  "Beijing-Dongcheng,China": {
+    "lat": 39.9057136,
+    "lon": 116.3912972,
+    "source": "openweather"
+  },
+  "Beijing-Haidian,China": {
+    "lat": 39.9057136,
+    "lon": 116.3912972,
+    "source": "openweather"
+  },
+  "Beijing-Tongzhou,China": {
+    "lat": 39.9057136,
+    "lon": 116.3912972,
+    "source": "openweather"
+  },
+  "Chongqing-Jiangbei,China": {
+    "lat": 30.8101669,
+    "lon": 108.4034084,
+    "source": "openweather"
+  },
+  "Chongqing-Shapingba,China": {
+    "lat": 30.8101669,
+    "lon": 108.4034084,
+    "source": "openweather"
+  },
+  "Chongqing-Yuzhong,China": {
+    "lat": 30.8101669,
+    "lon": 108.4034084,
+    "source": "openweather"
+  },
+  "Hubli-Dharwad,India": {
+    "lat": 15.3518378,
+    "lon": 75.1379848,
+    "source": "openweather"
+  },
+  "Mingora (Swat),Pakistan": {
+    "lat": 34.7725375,
+    "lon": 72.3607712,
+    "source": "openweather"
+  },
+  "Naga (Cebu),Philippines": {
+    "lat": 13.6240122,
+    "lon": 123.1850318,
+    "source": "openweather"
+  },
+  "Nawabshah (Shaheed Benazirabad),Pakistan": {
+    "lat": 26.2452915,
+    "lon": 68.4040229,
+    "source": "openweather"
+  },
+  "Obio-Akpor,Nigeria": {
+    "lat": -4.7411419,
+    "lon": 139.1999377,
+    "source": "openweather"
+  },
+  "San Carlos (Negros Occidental),Philippines": {
+    "lat": 37.504936,
+    "lon": -122.261823,
+    "source": "openweather"
+  },
+  "San Fernando (La Union),Philippines": {
+    "lat": 36.4646672,
+    "lon": -6.1983492,
+    "source": "openweather"
+  },
+  "San Fernando (Pampanga),Philippines": {
+    "lat": 36.4646672,
+    "lon": -6.1983492,
+    "source": "openweather"
+  },
+  "Shanghai-Pudong,China": {
+    "lat": 31.2323437,
+    "lon": 121.4691024,
+    "source": "openweather"
+  },
+  "Talisay (Cebu),Philippines": {
+    "lat": 10.2430205,
+    "lon": 123.8488245,
+    "source": "openweather"
+  },
+  "Tianjin-Binhai,China": {
+    "lat": 39.1175488,
+    "lon": 117.1913008,
+    "source": "openweather"
+  },
+  "Tianjin-Heping,China": {
+    "lat": 39.1175488,
+    "lon": 117.1913008,
+    "source": "openweather"
+  },
+  "Tianjin-Nankai,China": {
+    "lat": 39.1175488,
+    "lon": 117.1913008,
+    "source": "openweather"
+  },
+  "Bac Giang,Vietnam": {
+    "lat": 21.2815961,
+    "lon": 106.1988847,
+    "source": "openweather"
+  },
+  "Bac Kan,Vietnam": {
+    "lat": 22.1494915,
+    "lon": 105.837248,
+    "source": "openweather"
+  },
+  "Bac Lieu,Vietnam": {
+    "lat": 9.2824882,
+    "lon": 105.7260685,
+    "source": "openweather"
+  },
+  "Bac Ninh,Vietnam": {
+    "lat": 21.1781515,
+    "lon": 106.0710078,
+    "source": "openweather"
+  },
+  "Bao Loc,Vietnam": {
+    "lat": 11.5506941,
+    "lon": 107.8092511,
+    "source": "openweather"
+  },
+  "Ben Tre,Vietnam": {
+    "lat": 10.2448214,
+    "lon": 106.3734823,
+    "source": "openweather"
+  },
+  "Bien Hoa,Vietnam": {
+    "lat": 10.9509538,
+    "lon": 106.8226134,
+    "source": "openweather"
+  },
+  "Buon Ma Thuot,Vietnam": {
+    "lat": 12.6796827,
+    "lon": 108.0447368,
+    "source": "openweather"
+  },
+  "Ca Mau,Vietnam": {
+    "lat": 9.1782047,
+    "lon": 105.1519707,
+    "source": "openweather"
+  },
+  "Cam Pha,Vietnam": {
+    "lat": 21.004432,
+    "lon": 107.278029,
+    "source": "openweather"
+  },
+  "Cam Ranh,Vietnam": {
+    "lat": 11.9166696,
+    "lon": 109.14861,
+    "source": "openweather"
+  },
+  "Can Tho,Vietnam": {
+    "lat": 10.0364634,
+    "lon": 105.7875821,
+    "source": "openweather"
+  },
+  "Cao Bang,Vietnam": {
+    "lat": 22.6657612,
+    "lon": 106.2588307,
+    "source": "openweather"
+  },
+  "Cao Lanh,Vietnam": {
+    "lat": 10.4620322,
+    "lon": 105.6357948,
+    "source": "openweather"
+  },
+  "Chi Linh,Vietnam": {
+    "lat": 21.1074209,
+    "lon": 106.3873204,
+    "source": "openweather"
+  },
+  "Da Lat,Vietnam": {
+    "lat": 11.9402416,
+    "lon": 108.4375758,
+    "source": "openweather"
+  },
+  "Da Nang,Vietnam": {
+    "lat": 16.068,
+    "lon": 108.212,
+    "source": "openweather"
+  },
+  "Di An,Vietnam": {
+    "lat": 10.892242,
+    "lon": 106.7631404,
+    "source": "openweather"
+  },
+  "Dien Bien Phu,Vietnam": {
+    "lat": 21.3874893,
+    "lon": 103.0185,
+    "source": "openweather"
+  },
+  "Dong Ha,Vietnam": {
+    "lat": 40.5738002,
+    "lon": 110.0378343,
+    "source": "openweather"
+  },
+  "Dong Hoi,Vietnam": {
+    "lat": 17.4659566,
+    "lon": 106.5984715,
+    "source": "openweather"
+  },
+  "Dong Xoai,Vietnam": {
+    "lat": 11.5389583,
+    "lon": 106.9047378,
+    "source": "openweather"
+  },
+  "Gia Nghia,Vietnam": {
+    "lat": 23.4811089,
+    "lon": 120.4535412,
+    "source": "openweather"
+  },
+  "Ha Giang,Vietnam": {
+    "lat": 22.8264592,
+    "lon": 104.9846342,
+    "source": "openweather"
+  },
+  "Ha Nam,Vietnam": {
+    "lat": 16.335831,
+    "lon": 107.7706,
+    "source": "openweather"
+  },
+  "Ha Tinh,Vietnam": {
+    "lat": 18.3420485,
+    "lon": 105.9056559,
+    "source": "openweather"
+  },
+  "Hai Duong,Vietnam": {
+    "lat": 36.6884947,
+    "lon": 121.168464,
+    "source": "openweather"
+  },
+  "Hai Phong,Vietnam": {
+    "lat": 22.969734,
+    "lon": 115.3182077,
+    "source": "openweather"
+  },
+  "Hanoi,Vietnam": {
+    "lat": 21.0283334,
+    "lon": 105.854041,
+    "source": "openweather"
+  },
+  "Ho Chi Minh City,Vietnam": {
+    "lat": 10.7763897,
+    "lon": 106.7011391,
+    "source": "openweather"
+  },
+  "Hoa Binh,Vietnam": {
+    "lat": 10.6312134,
+    "lon": 107.3746446,
+    "source": "openweather"
+  },
+  "Hoi An,Vietnam": {
+    "lat": 15.8795863,
+    "lon": 108.3319406,
+    "source": "openweather"
+  },
+  "Hue,Vietnam": {
+    "lat": 16.4639321,
+    "lon": 107.5863388,
+    "source": "openweather"
+  },
+  "Hung Yen,Vietnam": {
+    "lat": 20.6568406,
+    "lon": 106.054036,
+    "source": "openweather"
+  },
+  "Kon Tum,Vietnam": {
+    "lat": 14.3615256,
+    "lon": 108.0039102,
+    "source": "openweather"
+  },
+  "Lai Chau,Vietnam": {
+    "lat": 37.1773133,
+    "lon": 119.9370943,
+    "source": "openweather"
+  },
+  "Lang Son,Vietnam": {
+    "lat": 21.8528759,
+    "lon": 106.7597458,
+    "source": "openweather"
+  },
+  "Lao Cai,Vietnam": {
+    "lat": 22.5082115,
+    "lon": 103.9680775,
+    "source": "openweather"
+  },
+  "Long Khanh,Vietnam": {
+    "lat": 10.9335279,
+    "lon": 107.2416829,
+    "source": "openweather"
+  },
+  "Long Xuyen,Vietnam": {
+    "lat": 24.1033959,
+    "lon": 115.2424192,
+    "source": "openweather"
+  },
+  "Mong Cai,Vietnam": {
+    "lat": 21.5290279,
+    "lon": 107.9691594,
+    "source": "openweather"
+  },
+  "My Tho,Vietnam": {
+    "lat": 10.3606197,
+    "lon": 106.3658439,
+    "source": "openweather"
+  },
+  "Nam Dinh,Vietnam": {
+    "lat": 20.4232641,
+    "lon": 106.1688515,
+    "source": "openweather"
+  },
+  "Nha Trang,Vietnam": {
+    "lat": 12.2431693,
+    "lon": 109.1898675,
+    "source": "openweather"
+  },
+  "Ninh Binh,Vietnam": {
+    "lat": 20.2545421,
+    "lon": 105.9764854,
+    "source": "openweather"
+  },
+  "Phan Rang,Vietnam": {
+    "lat": 11.5769829,
+    "lon": 108.9865391,
+    "source": "openweather"
+  },
+  "Phan Thiet,Vietnam": {
+    "lat": 10.9311514,
+    "lon": 108.1015919,
+    "source": "openweather"
+  },
+  "Phu Tho,Vietnam": {
+    "lat": 21.4000047,
+    "lon": 105.2238899,
+    "source": "openweather"
+  },
+  "Phuc Yen,Vietnam": {
+    "lat": 21.2332705,
+    "lon": 105.7035505,
+    "source": "openweather"
+  },
+  "Pleiku,Vietnam": {
+    "lat": 13.9715982,
+    "lon": 108.0143597,
+    "source": "openweather"
+  },
+  "Quang Ninh,Vietnam": {
+    "lat": 23.6348923,
+    "lon": 112.4317972,
+    "source": "openweather"
+  },
+  "Quy Nhon,Vietnam": {
+    "lat": 13.7696017,
+    "lon": 109.2314599,
+    "source": "openweather"
+  },
+  "Rach Gia,Vietnam": {
+    "lat": 10.0107104,
+    "lon": 105.0832623,
+    "source": "openweather"
+  },
+  "Soc Trang,Vietnam": {
+    "lat": 9.6026724,
+    "lon": 105.9733211,
+    "source": "openweather"
+  },
+  "Son La,Vietnam": {
+    "lat": 21.3274048,
+    "lon": 103.9151701,
+    "source": "openweather"
+  },
+  "Son Tay,Vietnam": {
+    "lat": 21.1410048,
+    "lon": 105.505651,
+    "source": "openweather"
+  },
+  "Song Cau,Vietnam": {
+    "lat": 13.4593792,
+    "lon": 109.2208388,
+    "source": "openweather"
+  },
+  "Tam Diep,Vietnam": {
+    "lat": 20.1565628,
+    "lon": 105.9180352,
+    "source": "openweather"
+  },
+  "Tam Ky,Vietnam": {
+    "lat": 15.5673735,
+    "lon": 108.4842128,
+    "source": "openweather"
+  },
+  "Tan An,Vietnam": {
+    "lat": 34.8333051,
+    "lon": 112.1167048,
+    "source": "openweather"
+  },
+  "Tay Ninh,Vietnam": {
+    "lat": 11.3138286,
+    "lon": 106.0964769,
+    "source": "openweather"
+  },
+  "Thai Binh,Vietnam": {
+    "lat": 20.449288,
+    "lon": 106.3424967,
+    "source": "openweather"
+  },
+  "Thai Nguyen,Vietnam": {
+    "lat": 37.870009,
+    "lon": 112.5452739,
+    "source": "openweather"
+  },
+  "Thanh Hoa,Vietnam": {
+    "lat": 19.8076814,
+    "lon": 105.7767437,
+    "source": "openweather"
+  },
+  "Thu Dau Mot,Vietnam": {
+    "lat": 10.9808435,
+    "lon": 106.6537483,
+    "source": "openweather"
+  },
+  "Thuan An,Vietnam": {
+    "lat": 29.6118467,
+    "lon": 119.0367741,
+    "source": "openweather"
+  },
+  "Tra Vinh,Vietnam": {
+    "lat": 9.9355829,
+    "lon": 106.3397849,
+    "source": "openweather"
+  },
+  "Tuy Hoa,Vietnam": {
+    "lat": 46.6520372,
+    "lon": 126.9626572,
+    "source": "openweather"
+  },
+  "Tuyen Quang,Vietnam": {
+    "lat": 21.7879695,
+    "lon": 105.217387,
+    "source": "openweather"
+  },
+  "Uong Bi,Vietnam": {
+    "lat": 21.0414692,
+    "lon": 106.7740261,
+    "source": "openweather"
+  },
+  "Vi Thanh,Vietnam": {
+    "lat": 9.7832231,
+    "lon": 105.4670349,
+    "source": "openweather"
+  },
+  "Vinh,Vietnam": {
+    "lat": 18.6698528,
+    "lon": 105.6840371,
+    "source": "openweather"
+  },
+  "Vinh Long,Vietnam": {
+    "lat": 10.252039,
+    "lon": 105.9735715,
+    "source": "openweather"
+  },
+  "Vinh Phuc,Vietnam": {
+    "lat": 21.0421695,
+    "lon": 105.8101415,
+    "source": "openweather"
+  },
+  "Vung Tau,Vietnam": {
+    "lat": 10.3486485,
+    "lon": 107.0765028,
+    "source": "openweather"
+  },
+  "Yen Bai,Vietnam": {
+    "lat": 21.69611,
+    "lon": 104.8752392,
+    "source": "openweather"
   }
 }
