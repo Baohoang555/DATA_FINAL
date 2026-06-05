@@ -226,7 +226,7 @@ def get_all_stations_aqi(db: Session = Depends(get_session)):
             }
 
         try:
-            country_rows = db.execute(text("SELECT city, country FROM dim_location")).fetchall()
+            country_rows = db.execute(text("SELECT city, country FROM dim_location WHERE country != 'Unknown'")).fetchall()
             for city_name, country_name in country_rows:
                 if city_name in station_map and country_name:
                     station_map[city_name]["country"] = country_name
@@ -252,7 +252,8 @@ def get_all_stations_aqi(db: Session = Depends(get_session)):
         geo_cache = load_city_geo_cache()
         for city_name, station in station_map.items():
             if station["lat"] is None or station["lon"] is None:
-                key = normalize_city_key(city_name, station.get("country"))
+                country = station.get("country")
+                key = normalize_city_key(city_name, country)
                 cache_entry = geo_cache.get(key)
                 if cache_entry and cache_entry.get("lat") is not None and cache_entry.get("lon") is not None:
                     station["lat"], station["lon"] = cache_entry["lat"], cache_entry["lon"]

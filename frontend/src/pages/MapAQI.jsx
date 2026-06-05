@@ -49,6 +49,8 @@ export default function MapAQI() {
         })
         .filter(Boolean)
 
+      console.log(`✅ Loaded ${built.length} cities with coordinates`)
+      built.slice(0, 5).forEach(m => console.log(`  ${m.name}: ${m.lat}, ${m.lon} (PM2.5: ${m.data?.pm25})`))
       setMarkers(built)
     }).catch(err => console.error(err))
     .finally(() => setLoading(false))
